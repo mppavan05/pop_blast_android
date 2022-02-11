@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     void win()
     {
         wintext.SetActive(true);
-        restart.SetActive(true);
+        restart.SetActive(true); 
     }
 
     public void Restart()
